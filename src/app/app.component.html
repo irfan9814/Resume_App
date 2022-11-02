@@ -1,0 +1,55 @@
+<div class="resume">
+
+  <div class="header"><img src="../assets/images/profile.png" alt="">
+    <app-header [name]="resume.name">
+    </app-header>
+  </div>
+
+
+  <div class="body">
+    <div class="body-left">
+      <div class="body-left-top">
+        <div class="icons">
+          <div>
+            <fa-icon [icon]="icon.faEnvelope"></fa-icon>
+          </div>
+          <div>
+            <fa-icon [icon]="icon.faPhone"></fa-icon>
+          </div>
+          <div>
+            <fa-icon [icon]="icon.faGithub"></fa-icon>
+          </div>
+          <div>
+            <fa-icon [icon]="icon.faLinkedin"></fa-icon>
+          </div>
+        </div>
+
+        <div class="contact">
+          <app-contact class="" [mobile]="resume.mobile" [email]="resume.email" [githuburl]="resume.githuburl"
+            [linkedinurl]="resume.linkedinurl">
+          </app-contact>
+
+        </div>
+      </div>
+      <div class="skills">
+        <app-skills [skills]="resume.skills"></app-skills>
+      </div>
+    </div>
+
+
+    <div class="body-right">
+      <div class="objective">
+      <app-objective [objective]="resume.objective"></app-objective>
+      </div>
+
+      <div class="projects">
+      <app-projects [projects]="resume.projects"></app-projects>
+      </div>
+
+      <div class="education">
+      <app-education [education]="resume.education"></app-education>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,14 @@
+.education-head{
+    margin-top: 50px;
+}
+
+.education-content ul li{
+    list-style: none;
+    color: grey;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.education-content ul li div{
+    margin-top: 10px;    
+}

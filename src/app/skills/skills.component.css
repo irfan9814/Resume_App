@@ -1,0 +1,14 @@
+.skills-heading{
+    margin-top: 50px;
+    margin-left: -5px;
+}
+
+.skills-list ul{
+    margin-top: -15px;
+}
+
+.skills-list ul li{
+    padding-top: 10px;
+    margin-left: -28px;
+    color: grey;
+}

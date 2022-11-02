@@ -1,0 +1,13 @@
+.header-name{
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 0px;
+    color: rgb(41, 2, 2);
+}
+
+.header-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -20px;
+    color: rgb(41, 2, 2);
+}

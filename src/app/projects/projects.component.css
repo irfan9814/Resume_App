@@ -1,0 +1,10 @@
+.project-content ul li{
+    list-style: none;
+    color: grey;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+.project-head{
+    margin-top: 50px;
+}
